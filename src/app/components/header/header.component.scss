@@ -1,9 +1,17 @@
 .header-block {
   background-color: #1E293B;
-  height: 52px;
 }
 
-.header-button {
+.header-block-nav {
+  //background-color: #1E293B;
+  height: 52px;
+  display: flex;
+  width: 1296px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.header-block-nav__button {
   height: 36px;
 }
 
@@ -22,4 +30,26 @@
   font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 14px;
+}
+
+@media screen and (min-width:414px) {
+  .header-block-nav {
+    padding-left: 6px;
+    padding-right: 6px;
+    width: 384px
+  }
+}
+
+@media screen and (min-width:1334px) {
+  .header-block-nav {
+    padding: 0;
+    width: 1296px;
+  }
+}
+
+@media screen and (min-width:1366px) {
+  .header-block-nav {
+    padding: 0;
+    width: 1296px;
+  }
 }

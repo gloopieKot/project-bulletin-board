@@ -1,19 +1,27 @@
-<div class="container">
-  <div class="main-recommendation">
+<div class="main-recommendation flex-column	">
+  <div class="main-recommendation-heading flex">
     <h2>Рекомендации для вас</h2>
-    <ul class="main-recommendation-list">
-      <app-card></app-card>
-      <app-card></app-card>
-      <app-card></app-card>
-      <app-card></app-card>
-      <app-card></app-card>
-      <app-card></app-card>
-      <app-card></app-card>
-      <app-card></app-card>
-      <app-card></app-card>
-      <app-card></app-card>
-      <app-card></app-card>
-      <app-card></app-card>
-    </ul>
+  </div>
+  <div class="main-recommendation-block flex gap-4">
+    <app-card class="main-recommendation-list"></app-card>
+    <app-card class="main-recommendation-list"></app-card>
+    <app-card class="main-recommendation-list"></app-card>
+    <app-card class="main-recommendation-list"></app-card>
+    <app-card class="main-recommendation-list"></app-card>
+    <app-card class="main-recommendation-list"></app-card>
+    <app-card class="main-recommendation-list"></app-card>
+    <app-card class="main-recommendation-list"></app-card>
+    <!--        <ul>-->
+<!--          <app-card class="main-recommendation-list"></app-card>-->
+<!--        </ul>-->
   </div>
 </div>
+
+
+<!--<main class="ad-list">-->
+<!--  <div class="p-grid">-->
+<!--    <div class="p-col-12 p-md-6 p-lg-4" *ngFor="let ad of ads">-->
+<!--      <app-card [ad]="ad"></app-card>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</main>-->

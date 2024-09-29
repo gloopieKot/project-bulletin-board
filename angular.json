@@ -34,7 +34,8 @@
             "styles": [
               "./node_modules/primeng/resources/primeng.css",
               "./node_modules/primeflex/primeflex.css",
-              "src/styles.scss"
+              "src/styles.scss",
+              "src/app/normalize.css"
             ],
             "scripts": []
           },

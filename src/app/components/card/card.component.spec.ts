@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { CardComponent } from './card.component';
+import { CardModule } from 'primeng/card';
+import { ButtonModule } from 'primeng/button';
 
 describe('CardComponent', () => {
   let component: CardComponent;
@@ -8,7 +9,7 @@ describe('CardComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [CardComponent]
+      imports: [CardComponent, CardModule, ButtonModule]
     })
     .compileComponents();
 

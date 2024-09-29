@@ -1,5 +1,4 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { RecommendationListComponent } from './recommendation-list.component';
 
 describe('RecommendationListComponent', () => {
